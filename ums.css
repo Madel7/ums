@@ -1,0 +1,275 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .upperblue {
+    display: flex; flex-wrap: wrap; background-color: rgb(132, 132, 245);  padding: 12px 0;
+  }
+  
+  .upperblue ul {
+    display: flex;
+    list-style: none;
+    background-color: rgb(132, 132, 245);
+   
+    align-items: center;
+    width: 100%;
+  }
+  
+  .upperblue li { 
+    padding-right: 15px;
+  }
+  .upperblue li img:hover {filter: invert(30%);}
+  
+  .upperblue li:first-child {
+    padding-left: 35px;
+  }
+  
+  .stickman {
+    margin-left: auto; align-items: center;
+  }
+
+  .logo{ padding: 15px 0px; font-size: 20px; font-family: Helvetica, sans-serif;
+    background-color: black; display: flex; align-items: center; color: rgb(208, 218, 226); }
+.logo  img {margin: auto;}    
+.logo p {margin-right: auto;}
+
+.po:visited , .po:link {text-decoration: none; color: black;}
+.po:hover {filter: invert(30%);}
+
+.Egypt:hover img {filter: invert(0%) !important;}
+
+.secpart {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.1% 4%;
+}
+
+.secpart li { 
+  height: 12em;
+  width: 15%;
+  margin: 1% 3% 1% 2%;
+  border-radius: 20px;
+  background-color: rgb(132, 132, 245);
+  list-style: none;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; cursor:pointer;
+}
+.secpart li:hover { 
+  transform: translateY(-10px);}
+
+.secpart li img { height:70px; width:70px ;
+  margin-bottom: 10px;
+}
+
+.secpart li img :not(:first-child) {border: 4px solid black; border-radius: 50%;}
+
+.secpart li span {
+  text-align: center;
+}
+
+
+footer {background-color: grey;}
+.container {margin: 0px auto;}
+
+.row {display: flex; flex-wrap: wrap; margin: 0px -15px; }
+
+.ull li {font-size: 16px; line-height: 50px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.row div { width: 25%;}
+
+.icons {display: flex;}
+.icons a {margin-right: 10px; margin-top: 10px;}
+
+.lowerfooter ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  width: 100%;
+}
+
+.lowerfooter {padding: 15px 30px 15px 50px;}
+
+.lowerfooter li {padding-right: 15px;}
+
+.lowerfooter div {width: 33%;}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+}
+
+
+
+.word {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 36px;
+  color: black;
+  font-style: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.uword {
+  font-size: 26px;
+  color: black;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+.login-container p {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-size: 36px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.login-form label { color:#ccc;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+}
+
+
+
+.login-form select,
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 650px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(145, 174, 255);
+  
+}
+
+.login-form input[type="submit"] { 
+  align-items: center;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: orange;
+  
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 40px;
+  width: 350px;
+  margin: 60px auto 20px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form input[type="submit"]:hover { 
+  background-color: darkorange; 
+  color: white; 
+  font-family: 'Franklin Gothic Medium';
+}
+
+
+.first-selection {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.1% 17%;
+}
+
+.first-selection li , .second-selection li , .third-selection li , .forth-selection li , .fifth-selection li { 
+  text-align: center;
+  height: 60px;
+  width: 280px;
+  margin: 0.8% 0.8%;
+  border-radius: 10px;
+  background-color: rgb(132, 132, 245);
+  list-style: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.forth-selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forth-selection ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; /* This centers the items horizontally */
+  list-style: none;
+  padding: 0; /* Remove default padding */
+}
+
+.forth-selection ul li , .fifth-selection ul li {
+  margin: 5px; /* Adjust the margin as needed */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.what ul li {margin: 0px 10px;}
+
+.second-selection , .third-selection , .forth-selection , .fifth-selection {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.1% 17%;
+  display: none;
+}
+
+
+
+body {
+  transition: filter 0.5s ease;
+}
+
+.invert-filter {
+  filter: invert(100%);
+}
+
+.stickman {
+  cursor: pointer;
+}
+
+.egypt, .logo {
+  transition: filter 0s ease !important; 
+}
+
+.invert-filter .egypt, .invert-filter .logo {
+  filter: invert(0%) !important;
+}
+.what ul li{ padding-bottom: 5px;}
+
+.what ul li:hover {color: orange; text-decoration: underline;}
